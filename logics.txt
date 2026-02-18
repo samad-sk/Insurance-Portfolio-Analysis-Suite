@@ -1,0 +1,429 @@
+Active / Inactive 
+Age
+Age group 
+claimamount
+claimdate
+claumnumber
+claimstatus
+coverageamount
+customerid
+gender
+policyEnddate
+policystartdate
+policytype
+premiumamount
+
+
+
+Good 👍 this is perfect dataset for practice.
+
+I’ll give you **real dashboard-level DAX problems** (no solutions). Try solving them and use in your report.
+
+---
+
+## 🟢 Basic Level
+
+1. Create a measure to calculate **Total Premium Collected**.
+
+2. Create a measure to calculate **Total Claim Amount**.
+
+3. Create a measure to calculate **Number of Policies**.
+
+4. Create a measure to calculate **Number of Claims**.
+
+5. Create a calculated column to classify policies as:
+
+   * "Active" if Today is between `policystartdate` and `policyenddate`
+   * "Inactive" otherwise.
+
+---
+
+## 🟡 Intermediate Level
+
+6. Create a measure for **Claim Ratio**
+   (Total Claim Amount ÷ Total Premium Amount).
+
+7. Create a measure for **Average Claim Amount per Customer**.
+
+8. Create a measure to calculate **Average Premium by Policy Type**.
+
+9. Create a measure to calculate **Total Coverage Amount for Active Policies only**.
+
+10. Create a measure to calculate **Percentage of Active Policies**.
+
+11. Create a measure to calculate **Claims Count by Gender**.
+
+12. Create an **Age Group column**:
+
+* 18–25
+* 26–35
+* 36–50
+* 50+
+
+---
+
+## 🔵 Advanced Level
+
+13. Create a measure to calculate **Year-to-Date (YTD) Claim Amount** based on claimdate.
+
+14. Create a measure to calculate **Previous Year Claim Amount**.
+
+15. Create a measure to calculate **Claim Growth % vs Previous Year**.
+
+16. Create a measure to find **Top 5 Customers by Claim Amount**.
+
+17. Create a measure to calculate **Loss Ratio by Policy Type**
+    (Claim Amount ÷ Coverage Amount).
+
+18. Create a measure to calculate **Average Policy Duration (in days)**.
+
+19. Create a measure to find **Policies expiring in next 30 days**.
+
+20. Create a measure to calculate **Retention Rate**
+    (Customers having more than one policy).
+
+---
+
+## 🔴 Challenge (Dashboard Thinking)
+
+21. Create a KPI measure:
+
+* If Claim Ratio > 0.8 → "High Risk"
+* Between 0.5–0.8 → "Moderate"
+* Below 0.5 → "Low Risk"
+
+22. Create a dynamic measure that switches between:
+
+* Premium
+* Claim
+* Coverage
+  using a slicer (Field Parameter style).
+
+23. Create a measure for **Average Claim Settlement Time**
+    (Assume claimstatus has Approved/Rejected/Pending and use claimdate logic creatively).
+
+---
+
+If you solve these properly, your dashboard will look like a real insurance analytics report.
+
+If you want, I can next:
+
+* 🔥 Review your DAX
+* Or design a **complete dashboard layout structure**
+* Or give you interview-style DAX questions
+
+Your level is improving 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Let me shift your mindset:
+
+Right now you are in Pattern Collection Phase.
+
+After 3–4 datasets, you will automatically think:
+
+Insurance dataset →
+
+Claim Ratio
+
+Loss Ratio
+
+Claim Frequency
+
+Retention
+
+YTD Growth
+
+Sales dataset →
+
+Revenue
+
+Profit
+
+Margin
+
+MoM growth
+
+Top products
+
+Customer dataset →
+
+Retention
+
+Churn
+
+LTV
+
+Acquisition rate
+
+This only comes from repetition.
+
+
+
+
+
+
+
+
+page 1 
+1) 3 slicers for policy number , claim number , customer id , 
+for them 3 cards showing total premium amount , coverage amount  ,and claim amount ,
+
+2) count of claims by gender , using multi row card , 
+
+3) a bar chart showing count of rejected ,settled , pending claims
+
+4) calculate age group column for young adults , adults , elders , then used bar chart to show claim amounts by each age groups 
+
+5) total premiums by policy types , using bar chart ,
+
+6) a donut chart showing the share of active and inactive customers , active/ inactive is a calculated column 
+
+
+
+page 2. 
+
+1) a clustered column chart showing for each policy type , how many claims were settled, pending and rejecte . 
+
+2) total no of claims , the count 
+
+3) avg claim per customer using card
+
+4) avg premium by policy type 
+
+
+
+page 3. 
+1)a slicer for policy type  and cards showing total premium , claim ratio , claim amount , ,
+2) a column chart showing claim ratio for each policy 
+
+3) a column chart showing the profit by each policy type
+
+4) a col chart showing premiumns for each policy type 
+
+5) a bar chart showing top 5 customers claims 
+
+
+
+
+
+Good. Now think like you’re presenting to a manager.
+
+A project dashboard should answer only 5–8 powerful questions — not everything.
+
+Here are the **most important executive-level problems** for an insurance dashboard:
+
+---
+
+## 🔥 1️⃣ Overall Business Health (Must Have)
+
+* What is Total Premium?
+* What is Total Claim Amount?
+* What is Claim Ratio?
+* Are we profitable overall?
+
+If your dashboard doesn’t answer this clearly → it fails.
+
+---
+
+## 🔥 2️⃣ Risk by Policy Type (Very Important)
+
+* Which policy type generates the most premium?
+* Which policy type has the highest claim ratio?
+* Which policy type is least profitable?
+
+This shows where business is strong vs risky.
+
+---
+
+## 🔥 3️⃣ Time Trend (Must Have)
+
+* Is premium increasing or decreasing over time?
+* Are claims increasing faster than premium?
+
+Management always wants trend direction.
+
+---
+
+## 🔥 4️⃣ Customer Impact (Important)
+
+* Who are top customers by claim amount?
+* Are there customers where claims exceed premium?
+
+This shows high-risk customers.
+
+---
+
+## 🔥 5️⃣ Actionable Insight (Very Important)
+
+* Which segment is hurting profitability the most?
+
+Your dashboard should allow them to identify this instantly.
+
+---
+
+# 🎯 Final Structure (Keep It Clean)
+
+Your project dashboard should show:
+
+1. 3–4 KPI numbers at top (business health)
+2. Policy type performance
+3. Time trend
+4. Customer risk view
+
+That’s it.
+
+If you do this cleanly, it looks professional.
+
+---
+
+Now ask yourself:
+
+If someone sees your dashboard for 30 seconds,
+can they tell whether the company is healthy or struggling?
+
+If yes → your project is strong.
+
+
+
+
+
+
+on an average , the amount paid from the coverage for customers , its like how much percent money paid from coverage 
+
+
+
+Ah! Now that you’ve given the full picture, we can make sense of it step by step. Let’s analyze your numbers carefully:
+
+### Your data summary:
+
+* **Annual Premiums Collected:** 6 million
+* **Total Coverage (Sum Insured):** 600 million
+* **Total Claims Paid / Raised:** 16 million
+
+---
+
+### 1️⃣ Check the **claim ratio (loss ratio)**:
+
+[
+\text{Claim Ratio} = \frac{\text{Claims}}{\text{Premiums}} \times 100
+]
+
+[
+\text{Claim Ratio} = \frac{16}{6} \times 100 \approx 266.7%
+]
+
+✅ That’s **very high** — it means the claims are more than **2.5× the premiums collected**.
+
+---
+
+### 2️⃣ Compare **coverage vs claims**:
+
+* Total coverage = 600 million
+* Claims = 16 million → only **2.67% of total coverage** was actually claimed.
+
+So the **insurance is paying out a very small portion of coverage**, but because premiums are **tiny compared to the coverage**, even modest claims give a huge claim ratio.
+
+---
+
+### 3️⃣ Why this is happening:
+
+* Your **premium-to-coverage ratio is extremely low**:
+  [
+  \text{Premium / Coverage} = \frac{6}{600} = 1%
+  ]
+  Normally, insurers price premiums as **a small % of coverage**, but usually enough to cover expected claims + admin + profit.
+
+* If your **policies are underpriced**, even small claims can exceed the total premiums.
+
+---
+
+### 4️⃣ Insight:
+
+* A **high claim ratio (>100%)** is not unusual if:
+
+  1. Premiums are very low relative to coverage.
+  2. A few policies had claims in that year.
+
+* Your **claims (16M) vs coverage (600M)** = small proportion, meaning **only a few claims happened**, but they still blew past the collected premiums (6M).
+
+---
+
+### ✅ Conclusion:
+
+* Your portfolio is **underpriced** relative to risk.
+* Monthly spikes (like what you saw in January) are expected, but here **even the annual claim ratio is >100%** → insurer would make a **loss** if nothing changes.
+* To fix: either **increase premiums**, **reduce coverage per policy**, or **reassess risk selection**.
+
+---
+
+If you want, I can make a **simple table showing each policy type’s contribution to premiums vs claims** — it will clearly show which types are “loss-making.”
+
+Do you want me to do that?
+
+
+
+
+Ah! Now it clicks — this explains the big picture vs individual behavior. Let’s break it down carefully:
+
+---
+
+### 1️⃣ Individual claims are small
+
+* Example: Customer with **20k coverage** claims **5k** → that’s **25% of coverage**.
+* Most customers are claiming **a fraction of their coverage**, which is normal in insurance.
+
+### 2️⃣ Why the overall numbers look “huge”
+
+* **Your total premium collected** = 6M
+* **Total claims** = 16M
+* So the **claim ratio looks > 250%**, but:
+
+  * **Many customers may not have claimed**
+  * **Claims are spread over multiple policies**
+  * The **premium-to-coverage ratio is tiny** (1% in your data), so even modest claims push the claim ratio above 100%.
+
+### 3️⃣ Key insight
+
+* **Small individual claims** → portfolio should be manageable **if premiums were higher**.
+* Your problem is not that customers are over-claiming — it’s that **premiums are too low compared to coverage**.
+
+✅ In short:
+
+* Individual behavior = normal
+* Portfolio-level “high claim ratio” = underpricing issue
+
+---
+
+If you want, I can show a **quick formula to estimate what your premium should be** to bring the annual claim ratio below 100%, based on your current claims. That will make it very concrete. Do you want me to do that?
+
+
+
+height -138 
+width - 187
+
+
+
+
+
+#52B788 - green 
+#EE9B00- yellow as headers
+
+
+
+
