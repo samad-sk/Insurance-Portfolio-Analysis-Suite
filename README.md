@@ -94,19 +94,19 @@ Displays profitability across policy categories.
 **1. Is the Portfolio Profitable?**
 The dashboard clearly shows whether premium income is higher than claim payouts using Profit and Loss Ratio. This helps management understand if the insurance business is financially healthy.
 
-### 2. Which Policy Types Are Risky?
+**2. Which Policy Types Are Risky?**
 Claim ratio by policy type highlights which insurance categories generate higher claims compared to premium collected. This supports better pricing and underwriting decisions.
 
-### 3. Are We Overexposed?
+**3. Are We Overexposed?**
 Coverage Utilization metrics reveal how much of the insured coverage is actually being used. This helps evaluate overall risk exposure and potential financial pressure.
 
-### 4. Are Claims Increasing Over Time?
+**4. Are Claims Increasing Over Time?**
 Monthly premium and claim trends help identify rising claim patterns, seasonal spikes, or stability in portfolio performance.
 
-### 5. Where Is Revenue Coming From?
+**5. Where Is Revenue Coming From?**
 Premium distribution by policy type shows which products contribute most to revenue and which ones need strategic attention.
 
-### 6. Do We Have High-Risk Customers?
+**6. Do We Have High-Risk Customers?**
 The Top 5 claim customers analysis helps identify concentration risk and supports further investigation if needed.
 
  ## Report Snapshot (Power BI DESKTOP)
