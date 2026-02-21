@@ -66,7 +66,7 @@ Shows monthly movement of premium collection and claim payouts.
 
 #### Page 3 – Risk & Coverage Utilization Analysis  
 
--- **Average Coverage Utilization**  
+- **Average Coverage Utilization**  
 Shows average percentage of coverage used by customers.
 
 **Coverage Utilization Ratio**  
