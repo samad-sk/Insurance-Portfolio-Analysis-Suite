@@ -8,7 +8,7 @@ It helps stakeholders monitor profitability, track claim trends, analyze policy 
 
 
 
-## 3. Tech Stack
+##  Tech Stack
 The dashboard was built using the following tools and technologies:
 - 📊 **Power BI Desktop** – Used to design interactive reports and dashboards.  
 - 📂 **Power Query** – Used for data cleaning and transformation.  
@@ -17,7 +17,7 @@ The dashboard was built using the following tools and technologies:
 - 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews.
 
 
-## 4. Data Source
+##  Data Source
 - Source: Simulated insurance portfolio dataset created for analytical and reporting purposes.  
 The dataset includes customer demographics, policy type, premium amount, claim amount, coverage limits, claim status, and policy lifecycle dates.
 
