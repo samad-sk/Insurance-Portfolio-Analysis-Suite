@@ -35,7 +35,7 @@ The dataset includes customer demographics, policy type, premium amount, claim a
 
 ## Walkthrough of Key Visuals
 
-### Page 1 – Portfolio Overview  
+#### Page 1 – Portfolio Overview  
 
 **Customer Distribution (Multi-row Card)**  
 Displays number of customers by gender.
@@ -46,7 +46,7 @@ Shows portfolio health by comparing active and inactive policies.
 **Premium, Claim & Coverage by Policy Type (Combo Chart)**  
 Compares earnings, payouts, and insured exposure across policy categories.
 
-### Page 2 – Policy & Claim Analysis  
+#### Page 2 – Policy & Claim Analysis  
 
 **Active Policies by Policy Type (Donut Chart)**  
 Shows distribution of active policies.
@@ -64,9 +64,9 @@ Shows monthly movement of premium collection and claim payouts.
 
 
 
-### Page 3 – Risk & Coverage Utilization Analysis  
+#### Page 3 – Risk & Coverage Utilization Analysis  
 
-**Average Coverage Utilization**  
+-- **Average Coverage Utilization**  
 Shows average percentage of coverage used by customers.
 
 **Coverage Utilization Ratio**  
@@ -92,21 +92,27 @@ Displays profitability across policy categories.
 
 
 **1. Is the Portfolio Profitable?**
+
 The dashboard clearly shows whether premium income is higher than claim payouts using Profit and Loss Ratio. This helps management understand if the insurance business is financially healthy.
 
 **2. Which Policy Types Are Risky?**
+
 Claim ratio by policy type highlights which insurance categories generate higher claims compared to premium collected. This supports better pricing and underwriting decisions.
 
 **3. Are We Overexposed?**
+
 Coverage Utilization metrics reveal how much of the insured coverage is actually being used. This helps evaluate overall risk exposure and potential financial pressure.
 
 **4. Are Claims Increasing Over Time?**
+
 Monthly premium and claim trends help identify rising claim patterns, seasonal spikes, or stability in portfolio performance.
 
 **5. Where Is Revenue Coming From?**
+
 Premium distribution by policy type shows which products contribute most to revenue and which ones need strategic attention.
 
 **6. Do We Have High-Risk Customers?**
+
 The Top 5 claim customers analysis helps identify concentration risk and supports further investigation if needed.
 
  ## Report Snapshot (Power BI DESKTOP)
