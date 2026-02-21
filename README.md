@@ -37,24 +37,24 @@ The dataset includes customer demographics, policy type, premium amount, claim a
 
 #### Page 1 – Portfolio Overview  
 
-**Customer Distribution (Multi-row Card)**  
+- **Customer Distribution (Multi-row Card)**  
 Displays number of customers by gender.
 
-**Active vs Inactive Policies (Donut Chart)**  
+- **Active vs Inactive Policies (Donut Chart)**  
 Shows portfolio health by comparing active and inactive policies.
 
-**Premium, Claim & Coverage by Policy Type (Combo Chart)**  
+- **Premium, Claim & Coverage by Policy Type (Combo Chart)**  
 Compares earnings, payouts, and insured exposure across policy categories.
 
 #### Page 2 – Policy & Claim Analysis  
 
-**Active Policies by Policy Type (Donut Chart)**  
+- **Active Policies by Policy Type (Donut Chart)**  
 Shows distribution of active policies.
 
-**Claim Status by Policy Type (Clustered Column Chart)**  
+- **Claim Status by Policy Type (Clustered Column Chart)**  
 Displays claim outcomes across policy types.
 
-**Premium & Claim Trends Over Time (Line Chart)**  
+- **Premium & Claim Trends Over Time (Line Chart)**  
 Shows monthly movement of premium collection and claim payouts.
 
 **KPIs**  
@@ -69,22 +69,22 @@ Shows monthly movement of premium collection and claim payouts.
 - **Average Coverage Utilization**  
 Shows average percentage of coverage used by customers.
 
-**Coverage Utilization Ratio**  
+- **Coverage Utilization Ratio**  
 Shows percentage of total insured coverage paid as claims.
 
-**Loss Ratio**  
+- **Loss Ratio**  
 Measures how much of collected premium is paid out as claims.
 
-**Claim Ratio by Policy Type (Bar Chart)**  
+- **Claim Ratio by Policy Type (Bar Chart)**  
 Compares risk levels across policy categories.
 
-**Premium Distribution by Policy Type (Pie Chart)**  
+- **Premium Distribution by Policy Type (Pie Chart)**  
 Shows revenue share by policy type.
 
-**Top 5 Customers by Claim Amount (Table)**  
+- **Top 5 Customers by Claim Amount (Table)**  
 Identifies highest claim contributors.
 
-**Profit by Policy Type (Area Chart)**  
+- **Profit by Policy Type (Area Chart)**  
 Displays profitability across policy categories.
 
 
