@@ -117,6 +117,6 @@ The Top 5 claim customers analysis helps identify concentration risk and support
  ## Report Snapshot (Power BI DESKTOP)
 <img width="1586" height="797" alt="Image" src="https://github.com/user-attachments/assets/cffe8e85-b420-46d5-b582-3e073927706c" />
 
-<img width="1428" height="793" alt="Image" src="https://github.com/user-attachments/assets/c41e2be1-6a71-4244-9584-0a7e90aadcb2" />
+<img width="1432" height="797" alt="Image" src="https://github.com/user-attachments/assets/d7b1ee61-f211-4032-9d5b-948004652d2e" />
 
 <img width="1436" height="797" alt="Image" src="https://github.com/user-attachments/assets/78a19098-23d0-4069-bdf5-d566573f5ce4" />
