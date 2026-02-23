@@ -90,7 +90,6 @@ Displays profitability across policy categories.
 
 ## Business Impact & Insights  
 
-
 **1. Is the Portfolio Profitable?**
 
 The dashboard clearly shows whether premium income is higher than claim payouts using Profit and Loss Ratio. This helps management understand if the insurance business is financially healthy.
@@ -116,9 +115,8 @@ Premium distribution by policy type shows which products contribute most to reve
 The Top 5 claim customers analysis helps identify concentration risk and supports further investigation if needed.
 
  ## Report Snapshot (Power BI DESKTOP)
- <img width="1788" height="736" alt="Image" src="https://github.com/user-attachments/assets/65b78ffb-7af6-4fed-b804-6366b6beb8ef" />
- <img width="1432" height="798" alt="Image" src="https://github.com/user-attachments/assets/a69fb2d0-fe3c-418a-b19e-892694921034" />
-<img width="1425" height="792" alt="Image" src="https://github.com/user-attachments/assets/c7c17ff2-f24a-49e6-87b2-06e39c162dcb" />
-<img width="1430" height="797" alt="Image" src="https://github.com/user-attachments/assets/9a1cae07-140f-4304-9131-fdad70f489b3" />
-<img width="1430" height="806" alt="Image" src="https://github.com/user-attachments/assets/4acd4b5e-4072-4d89-9903-8ac411d92b8d" />
-<img width="1432" height="801" alt="Image" src="https://github.com/user-attachments/assets/8de51005-31ea-4790-b702-a6debf5f3f60" />
+<img width="1586" height="797" alt="Image" src="https://github.com/user-attachments/assets/cffe8e85-b420-46d5-b582-3e073927706c" />
+
+<img width="1428" height="793" alt="Image" src="https://github.com/user-attachments/assets/c41e2be1-6a71-4244-9584-0a7e90aadcb2" />
+
+<img width="1436" height="797" alt="Image" src="https://github.com/user-attachments/assets/78a19098-23d0-4069-bdf5-d566573f5ce4" />
